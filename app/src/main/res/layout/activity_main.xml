@@ -7,12 +7,42 @@
     tools:context="com.example.nick263.whackamole.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_width="292dp"
+        android:layout_height="122dp"
+        android:text="@string/welcome_to_whack_a_boruto_dad_tap_the_ninjas_as_they_appear_on_the_screen_if_you_miss_3_you_lose_dattebayo"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"
+        app:srcCompat="@drawable/start"
+        android:onClick="startGame"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:text="@string/start"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
 
 </android.support.constraint.ConstraintLayout>

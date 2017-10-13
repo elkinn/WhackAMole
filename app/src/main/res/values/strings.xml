@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">WhackAMole</string>
+    <string name="app_name">Whack A Mole</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="start">start!</string>
+    <string name="welcome_to_whack_a_boruto_dad_tap_the_ninjas_as_they_appear_on_the_screen_if_you_miss_3_you_lose_dattebayo">Welcome to Whack-a-Mole! You have 90 seconds to tap the faces as they appear on the screen!</string>
 </resources>
